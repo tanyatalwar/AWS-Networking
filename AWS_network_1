@@ -1,3 +1,5 @@
 AWS is divided into regions
 VPC is logically isolated network
 VPC is pressent within a region
+User defined IP Range
+Can contain both private and public subnet
