@@ -3,3 +3,21 @@ VPC is logically isolated network
 VPC is present within a region
 User defined IP Range
 Can contain both private and public subnet
+VPC Components
+- Subnet (Private/Public)
+- that is they can contain private or public resources
+
+- You can manipulate how traffic flows into or out of subnet through Route tables
+
+- If you use access to internet  within a VPC you can use internet gateway
+
+- If you want to prohibit inbound connections you can use Engress-only internet gateway
+
+- If you want to access private network within AWS services you can use VPC Endpoint  
+- NAT Gateways
+
+- For Application expose to internet and Database to be private
+- you need 2 subnet private and public
+- internet gateway/router
+- Route table for each of the subnet
+- let say you are storing some data in S3 you can setup a VPC endpoint
