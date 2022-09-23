@@ -1,0 +1,3 @@
+- AWS tool for DNS Services
+- Support DNS Failover(can detect a website outage and can redirect people to website where it is working)
+- Global traffic Management(create traffic policy that optimize your user experience)
