@@ -13,3 +13,6 @@
 - All Default VPC components are un-named
 - Rename the default one to DONOTUSE_VPC
 - Rename default subnets too
+- Rename default route table too
+- Rename default internet gateway too
+- Rename DHCP option AWS_DNS
