@@ -1,7 +1,8 @@
 AWS is divided into regions
 AWS -> Regions -> Azs
 VPC is logically isolated network
-VPC is present within a region
+VPC can be divided into subnet of different size
+each VPC is present within a region
 User defined IP Range
 Can contain both private and public subnet
 VPC Components
