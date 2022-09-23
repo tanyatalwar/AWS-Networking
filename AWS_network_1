@@ -43,5 +43,6 @@ Private AWS Connectivity Options
   - Customer Gateway (at your side)
 - Direct Connect
 - VPC peering connection
+- Transit Gateway
 
  
