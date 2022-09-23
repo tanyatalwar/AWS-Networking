@@ -34,4 +34,14 @@ VPC Infrastructure
    - Private Subnet(Resource we want to keep private)
 - Router
    - To communicate within Subnets
+- Internet Gateway 
+   - To access the internet
+
+Private AWS Connectivity Options
+- IPsec Virtual Private Network
+  - Virtual Private Gateway (at AWS Side)
+  - Customer Gateway (at your side)
+- Direct Connect
+- VPC peering connection
+
  
