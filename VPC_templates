@@ -1,1 +1,7 @@
 #create your own VPC
+- Launch VPC
+- AWS Currently offers 4 templates
+  - 1. template creates a VPC with single public subnet (it also attach the internet gateway so VPC can access the internet)
+  - 2. templates created a VPC with single public and private subnet
+  - 3. templates created a VPC with single public and private subnet with hardware VPN access
+  - 4. templates created a VPC with single private subnet with hardware VPN access 
