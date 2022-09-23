@@ -13,10 +13,13 @@ VPC Components
 
 - If you use access to internet  within a VPC you can use internet gateway
 
-- If you want to prohibit inbound connections you can use Engress-only internet gateway
+- If you want to IPV6 prohibit inbound connections you can use Engress-only internet gateway
 
-- If you want to access private network within AWS services you can use VPC Endpoint  
-- NAT Gateways
+- If you want to access private network within AWS services you can use VPC Endpoint 
+
+- If you want to enable private access to other AWS Accounts without transversing the internet VPC Endpoint is used
+
+- to let private resources access internet you need NAT Gateways(NAT stands for Network address translation)
 
 - For Application expose to internet and Database to be private
 - you need 2 subnet private and public
