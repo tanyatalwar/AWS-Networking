@@ -1,1 +1,11 @@
 - When you use an AWS Account you get a readymade in each region to use
+- The default have CIDR Range of \16
+- The Default CIDR range is 172.31.0.0/16 Private IPs
+- The default VPC also create a subnet in each AZs in region
+- All Region have minimum of 2 AZs while some have more
+- Each has Sider of 20
+- AWS Reserves some IPs for internal services
+- The Default VPC also comes with a Internet Gateway attached
+- A default security group is created
+- A default Access Control list is created
+- Prefer creating you own VPC and avoid using a default one
