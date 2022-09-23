@@ -10,4 +10,6 @@
 - A default Access Control list is created
 - Prefer creating you own VPC and avoid using a default one
 - Deleting A region default VPC is dangerous as doing so can land some AWS services in that region inoperatable
-- 
+- All Default VPC components are un-named
+- Rename the default one to DONOTUSE_VPC
+- Rename default subnets too
