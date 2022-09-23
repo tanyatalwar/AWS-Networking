@@ -4,3 +4,6 @@
 
 - Fail over policy
 - Also support weighted round robin, latency based routing, location based routing
+- Main Route table can be modified but can not be deleted
+- Each Subnet must be associated with route table
+- Main route table is catch all for unassigned subnet
