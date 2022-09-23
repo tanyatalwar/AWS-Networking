@@ -26,3 +26,12 @@ VPC Components
 - internet gateway/router
 - Route table for each of the subnet
 - let say you are storing some data in S3 you can setup a VPC endpoint
+
+VPC Infrastructure
+- Public Subnet
+   - Web servers(Resources we want to expose to internet)
+- Private Subnet
+   - Private Subnet(Resource we want to keep private)
+- Router
+   - To communicate within Subnets
+ 
