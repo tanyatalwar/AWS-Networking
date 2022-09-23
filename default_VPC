@@ -16,3 +16,5 @@
 - Rename default route table too
 - Rename default internet gateway too
 - Rename DHCP option AWS_DNS
+- Rename the ACL, by default ACL allows all inbound and outbound
+- Rename the Security Name too
