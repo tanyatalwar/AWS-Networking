@@ -1,1 +1,7 @@
-
+Private link uses the internal AWS network
+Enable private access to private services
+Endpoint benefits
+-Private access
+-Lower Latency
+-Simplied Endpoints
+-Improve Security posture
