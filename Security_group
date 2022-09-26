@@ -1,0 +1,11 @@
+- Lets you control inbound and outbound traffic
+- Think of security group as a virtual firewall
+- Applied to all AWS Component including EC2 instance,Elastic load balancer
+- Security group are assigned at component level
+- On any firewall the more rules it have to process the greater the time
+Defaults
+- 5 security groups
+- each security group have 60 inbound outbound rules
+- Single security group can have total 120 rules
+- By Default A VPC is limited to 2500 Security groups
+- Security groups are Stateful
